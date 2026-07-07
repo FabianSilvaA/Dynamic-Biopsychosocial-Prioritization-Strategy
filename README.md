@@ -22,24 +22,35 @@ This repository contains all files required to reproduce the simulation experime
 
 | File | Description |
 |------|-------------|
-| `Code-Manuscript/` | Contains all source code required to reproduce the prioritization strategy, simulation experiments, statistical analyses, figures, and tables presented in the manuscript. |
-| `README.md` | Provides a description of the repository, manuscript information, software requirements, and instructions for reproducing the reported results. |
+| `Code-Manuscript/` | Contains the Python script required to reproduce the biopsychosocial prioritization model, stochastic simulation, sensitivity analysis, statistical comparisons, tables, figures, and exported datasets reported in the manuscript. |
+| `README.md` | Provides manuscript information, repository description, software requirements, and instructions for reproducing the results. |
 
 ## ▶ Reproducing the Results
 
-To reproduce the experiments reported in the manuscript:
+To reproduce the simulation experiments reported in the manuscript:
 
 1. Clone or download this repository.
 2. Install the required Python packages.
-3. Place any required input dataset in the repository root directory, if applicable.
-4. Execute the Python script(s) contained in the `Code-Manuscript` folder.
+3. Execute the Python script contained in the `Code-Manuscript` folder.
 
-The provided code reproduces the prioritization strategy, stochastic simulation experiments, statistical evaluations, figures, tables, and numerical results reported in the manuscript.
+The script generates the synthetic patient dataset, applies FIFO and biopsychosocial prioritization strategies, performs statistical comparisons, runs sensitivity analyses, and exports the tables, figures, and numerical results reported in the manuscript.
 
 ## 💻 Requirements
 
 - Python 3.10 or later.
-- Required libraries: pandas, numpy, scipy, matplotlib, seaborn, scikit-learn.
+
+Required libraries:
+
+- numpy
+- pandas
+- matplotlib
+- scipy
+
+synthetic_patients_baseline.xlsx
+table_iv.xlsx
+table_v.xlsx
+table_vi.xlsx
+table_vii_sensitivity_analysis.xlsx
 
 ## 📬 Contact
 
