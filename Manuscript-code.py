@@ -50,7 +50,7 @@ def fmt(mean, ci, digits=1):
 
 
 # ============================================================
-# 3. MATHEMATICAL MODEL FORMULAS
+# 3. MATHEMATICAL MODEL 
 # ============================================================
 
 # Static score:
