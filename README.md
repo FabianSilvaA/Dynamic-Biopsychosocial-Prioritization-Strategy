@@ -22,18 +22,18 @@ This repository contains all files required to reproduce the simulation experime
 
 | File | Description |
 |------|-------------|
-| `Code-Manuscript/` | Contains the Python script required to reproduce the biopsychosocial prioritization model, stochastic simulation, sensitivity analysis, statistical comparisons, tables, figures, and exported datasets reported in the manuscript. |
-| `README.md` | Provides manuscript information, repository description, software requirements, and instructions for reproducing the results. |
+| `Manuscript-code.py` | Python implementation of the proposed dynamic biopsychosocial prioritization strategy. The script generates the synthetic patient dataset, performs the stochastic simulation experiments, statistical analyses, sensitivity analyses, and automatically reproduces all tables, figures, and numerical results reported in the manuscript. |
+| `README.md` | Provides manuscript information, repository description, software requirements, and instructions for reproducing the reported results. |
 
 ## ▶ Reproducing the Results
 
-To reproduce the simulation experiments reported in the manuscript:
+To reproduce the results reported in the manuscript:
 
 1. Clone or download this repository.
 2. Install the required Python packages.
-3. Execute the Python script contained in the `Code-Manuscript` folder.
+3. Execute `Manuscript-code.py`.
 
-The script generates the synthetic patient dataset, applies FIFO and biopsychosocial prioritization strategies, performs statistical comparisons, runs sensitivity analyses, and exports the tables, figures, and numerical results reported in the manuscript.
+The script automatically generates the synthetic patient dataset, performs all simulation experiments, statistical analyses, sensitivity analyses, and exports the tables, figures, and numerical results presented in the manuscript.
 
 ## 💻 Requirements
 
