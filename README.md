@@ -1,4 +1,4 @@
-This repository contains all source code and datasets required to reproduce the computational experiments, simulation analyses, statistical evaluations, figures, tables, and numerical results presented in the manuscript.
+This repository contains all source code required to reproduce the computational experiments, simulation analyses, statistical evaluations, figures, tables, and numerical results presented in the manuscript.
 
 It has been organized to facilitate the replication and verification of the proposed methodology and experimental results by other researchers.
 
@@ -22,7 +22,7 @@ This repository contains all files required to reproduce the simulation experime
 
 | File | Description |
 |------|-------------|
-| `Manuscript-code.py` | Python implementation of the proposed dynamic biopsychosocial prioritization strategy. The script generates the synthetic patient dataset, performs the stochastic simulation experiments, statistical analyses, sensitivity analyses, and automatically reproduces all tables, figures, and numerical results reported in the manuscript. |
+| `Manuscript-code.py` | Complete Python implementation of the proposed dynamic biopsychosocial prioritization strategy. The script generates the synthetic patient dataset, performs the stochastic simulation, statistical comparisons, sensitivity analyses, and automatically reproduces all tables, figures, and numerical results reported in the manuscript. |
 | `README.md` | Provides manuscript information, repository description, software requirements, and instructions for reproducing the reported results. |
 
 ## ▶ Reproducing the Results
@@ -46,11 +46,17 @@ Required libraries:
 - matplotlib
 - scipy
 
-synthetic_patients_baseline.xlsx
-table_iv.xlsx
-table_v.xlsx
-table_vi.xlsx
-table_vii_sensitivity_analysis.xlsx
+## 📤 Generated Outputs
+
+After executing `Manuscript-code.py`, the following files are automatically generated:
+
+- `synthetic_patients_baseline.xlsx`
+- `table_iv.xlsx`
+- `table_v.xlsx`
+- `table_vi.xlsx`
+- `table_vii_sensitivity_analysis.xlsx`
+- `figure_1_prioritization_evolution.png`
+- `figure_2_score_distribution.png`
 
 ## 📬 Contact
 
