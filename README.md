@@ -1,17 +1,55 @@
-Name of the manuscritp: Dynamic Biopsychosocial Prioritization Strategy for Elective Surgeries in High-Complexity Public Hospitals: A Simulation-Based Study
+This repository contains all source code and datasets required to reproduce the computational experiments, simulation analyses, statistical evaluations, figures, tables, and numerical results presented in the manuscript.
 
-Authors: Fabián Silva-Aravena, Miguel Morales-Beltrán
+It has been organized to facilitate the replication and verification of the proposed methodology and experimental results by other researchers.
 
-Submission ID:10403
+# Dynamic Biopsychosocial Prioritization Strategy for Elective Surgeries in High-Complexity Public Hospitals: A Simulation-Based Study
 
-Full description of the file: Long waiting lists for elective surgeries in public health systems pose a critical challenge, often leading to clinical
-deterioration and access inequities. In Chile, patients who do not have explicit health guarantees (GES) are particularly affected due to the lack of
-structured prioritization frameworks that consider more than just time or urgency. To address this gap, we developed a hybrid prioritization strategy
-for elective non-GES surgical patients in the Department of Otorhinolaryngology (ENT) of a high-complexity public hospital (HCPH).
-Our approach integrates clinical and psychosocial dimensions using the Analytic Hierarchy Process (AHP), combined with a dynamic vulnerability function
-that adjusts scores over time based on waiting duration and urgency. Twenty variables, 13 clinical and 7 psychosocial, were weighted using expert judgment
-to construct a total prioritization score composed of static and time-sensitive components.
-Using a stochastic simulation of 1,000 patients, we observed a reduction of 6.6% in patients who exceeded their maximum safe waiting time compared to a
-FIFO strategy. These results suggest better alignment between patient prioritization and accumulated clinical risk, even under fixed surgical capacity.
-Although not yet implemented in practice, our model has great potential to inform surgical scheduling decisions, improve fairness, and reduce preventable
-harm. Future research will focus on real-world integration and adaptation in clinical specialties and healthcare settings.
+**Submission ID:** 10403  
+
+**Authors:**
+
+Fabián Silva-Aravena¹
+
+Miguel Morales-Beltrán¹
+
+¹ Facultad de Ciencias Sociales y Económicas,  
+Universidad Católica del Maule,  
+Talca, Chile
+
+## 📁 Repository Contents
+
+This repository contains all files required to reproduce the simulation experiments and numerical results presented in the manuscript.
+
+| File | Description |
+|------|-------------|
+| `Code-Manuscript/` | Contains all source code required to reproduce the prioritization strategy, simulation experiments, statistical analyses, figures, and tables presented in the manuscript. |
+| `README.md` | Provides a description of the repository, manuscript information, software requirements, and instructions for reproducing the reported results. |
+
+## ▶ Reproducing the Results
+
+To reproduce the experiments reported in the manuscript:
+
+1. Clone or download this repository.
+2. Install the required Python packages.
+3. Place any required input dataset in the repository root directory, if applicable.
+4. Execute the Python script(s) contained in the `Code-Manuscript` folder.
+
+The provided code reproduces the prioritization strategy, stochastic simulation experiments, statistical evaluations, figures, tables, and numerical results reported in the manuscript.
+
+## 💻 Requirements
+
+- Python 3.10 or later.
+- Required libraries: pandas, numpy, scipy, matplotlib, seaborn, scikit-learn.
+
+## 📬 Contact
+
+For questions regarding the repository or reproduction of the results, please contact:
+
+Fabián Silva-Aravena
+
+Universidad Católica del Maule
+
+Talca, Chile
+
+Email: fasilva@ucm.cl
+
